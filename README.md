@@ -2,7 +2,7 @@
 > *From: TwilightGate*
 # <div align="center">TwilightGate_Minecraft1.12.2PrivateModdedPack</div>
 <div align="center">
-  <a href="https://sm.ms/image/UjXbuVrxyE1K647" target="_blank"><img src="https://s2.loli.net/2024/10/19/UjXbuVrxyE1K647.png" ></a>
+  <a href="https://github.com/ChenXi094/TwilightGate_Minecraft1.12.2PrivateModdedPack/tree/main" target="_blank"><img src="https://s2.loli.net/2024/10/19/K1Y8LWi9hJIb6sU.png" ></a>
 </div>
 
 ----------
