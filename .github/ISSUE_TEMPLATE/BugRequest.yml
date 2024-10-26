@@ -33,7 +33,7 @@ body:
     id: logs
     attributes:
       label: "Logs or Screenshoots (optional) / 日志或屏幕截图 (可选)"
-      description: "Drag and drop your logs or screenshots here (optional) / 将你的日志或屏幕截图拖拽并复制在这里 (可选)"
+      description: "Drop your logs or screenshots here (optional) / 将你的日志或屏幕截图拖拽并复制在这里 (可选)"
       render: shell
     validations:
       required: false
