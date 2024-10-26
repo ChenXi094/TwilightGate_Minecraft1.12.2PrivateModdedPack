@@ -9,7 +9,7 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: "Checklist-检查项"
+      label: "Checklist 检查项"
       description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
       options:
         - label: I agree to follow this project's Code of Conduct
@@ -17,7 +17,7 @@ body:
   - type: input
     id: contact
     attributes:
-      label: "Your Name-怎么称呼您"
+      label: "Your Name 怎么称呼您"
       description: Your name
       placeholder: Xi Chen
     validations:
@@ -25,7 +25,7 @@ body:
   - type: textarea
     id: error
     attributes:
-      label: "Describe the bug-描述错误"
+      label: "Describe the bug 描述错误"
       description: "在这里简要描述出现的错误或存在的问题"
       placeholder: "悬浮字符测试"
       value: ""
@@ -34,7 +34,7 @@ body:
   - type: dropdown
     id: version
     attributes:
-      label: "Your Modpack Version Channel-你的整合包版本通道"
+      label: "Your Modpack Version Channel 你的整合包版本通道"
       description: What version of our software are you running?
       options:
         - Playing Testing Version
@@ -45,7 +45,7 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: "Logs or Screenshoots-日志或屏幕截图"
+      label: "Logs or Screenshoots 日志或屏幕截图"
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
     validations:
