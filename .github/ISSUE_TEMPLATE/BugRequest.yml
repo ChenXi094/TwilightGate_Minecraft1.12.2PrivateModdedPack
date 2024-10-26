@@ -13,8 +13,8 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: "Checklist 检查项"
-      description: "Please review the following items carefully and confirm/请仔细核对以下项目并确认"
+      label: "Checklist/检查项"
+      description: "Please review the following items carefully and confirm / 请仔细核对以下项目并确认"
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
