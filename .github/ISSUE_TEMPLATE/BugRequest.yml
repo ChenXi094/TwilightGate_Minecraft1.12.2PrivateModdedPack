@@ -6,50 +6,51 @@ projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
 body:
-  - type: markdown
+  - type: checkboxes
+    id: terms
     attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
+      label: "Checklist-检查项"
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
   - type: input
     id: contact
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: "Your Name-怎么称呼您"
+      description: Your name
+      placeholder: Xi Chen
     validations:
-      required: false
+      required: true
   - type: textarea
     id: error
     attributes:
-      label: "Describe the bug 描述错误"
+      label: "Describe the bug-描述错误"
       description: "在这里简要描述出现的错误或存在的问题"
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      placeholder: "悬浮字符测试"
+      value: ""
     validations:
       required: true
   - type: dropdown
     id: version
     attributes:
-      label: Version
+      label: "Your Modpack Version Channel-你的整合包版本通道"
       description: What version of our software are you running?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - Playing Testing Version
+        - Modified Version
       default: 0
     validations:
       required: true
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
+      label: "Logs or Screenshoots-日志或屏幕截图"
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
-  - type: checkboxes
-    id: terms
+    validations:
+      required: false
+  - type: markdown
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
-
+      value: |
+        Thanks for taking the time to fill out this bug report!
