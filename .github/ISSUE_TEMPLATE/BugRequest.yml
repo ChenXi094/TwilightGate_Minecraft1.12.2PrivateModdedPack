@@ -6,22 +6,18 @@ projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
   - type: checkboxes
     id: terms
     attributes:
       label: "Checklist 检查项"
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
+      description: "复选框描述出现位置测试"
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
-  - type: input
-    id: contact
-    attributes:
-      label: "Your Name 怎么称呼您"
-      description: Your name
-      placeholder: Xi Chen
-    validations:
-      required: true
   - type: textarea
     id: error
     attributes:
@@ -50,7 +46,11 @@ body:
       render: shell
     validations:
       required: false
-  - type: markdown
+  - type: input
+    id: contact
     attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
+      label: "Your Name 怎么称呼您"
+      description: Your name
+      placeholder: Xi Chen
+    validations:
+      required: true
