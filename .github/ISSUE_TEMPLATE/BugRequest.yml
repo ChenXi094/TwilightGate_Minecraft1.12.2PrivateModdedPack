@@ -28,7 +28,7 @@ body:
       label: "Describe the bug 描述错误"
       description: "在这里简要描述出现的错误或存在的问题"
       placeholder: "悬浮字符测试"
-      value: ""
+      value: "text"
     validations:
       required: true
   - type: dropdown
