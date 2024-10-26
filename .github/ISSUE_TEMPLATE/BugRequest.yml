@@ -1,5 +1,5 @@
-name: Issues Report
-description: Issues Report
+name: Issues Report / 错误报告
+description: "Feedback, report one or more issues / 反馈，报告一个或一些问题"
 title: "[Bug]: "
 labels: ["bug"]
 assignees:
