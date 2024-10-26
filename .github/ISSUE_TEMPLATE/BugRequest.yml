@@ -17,6 +17,7 @@ body:
       description: "Please review the following items carefully and confirm / 请仔细核对以下项目并确认"
       options:
         - label: "I have searched the Issues page and confirmed that this bug has not been previously submitted / 我已在Issues页面搜索并确认该bug未曾被提交过"
+          required: true
         - label: "I have made every effort to confirm that this issue was not caused by me / 我已尽量确认该错误并未我导致"
           required: true
   - type: textarea
@@ -44,7 +45,7 @@ body:
       options:
         - Playing Testing Version
         - Modified Version
-      default: 1
+      default: 0
     validations:
       required: true
   - type: dropdown
@@ -59,6 +60,6 @@ body:
         - "Mechanism defect"
         - "Game Crashed or cannot Launched"
         - "others"
-      default: 1
+      default: 0
     validations:
       required: true
