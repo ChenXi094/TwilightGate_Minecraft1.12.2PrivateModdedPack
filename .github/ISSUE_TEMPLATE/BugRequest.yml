@@ -21,8 +21,8 @@ body:
   - type: textarea
     id: error
     attributes:
-      label: Describe the bug/描述错误:
-      description: 在这里简要描述出现的错误或存在的问题
+      label: "Describe the bug 描述错误"
+      description: "在这里简要描述出现的错误或存在的问题"
       placeholder: Tell us what you see!
       value: "A bug happened!"
     validations:
