@@ -32,7 +32,7 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: "Logs or Screenshoots / 日志或屏幕截图"
+      label: "Logs or Screenshoots (optional) / 日志或屏幕截图 (可选)"
       description: "Drag and drop your logs or screenshots here (optional) / 将你的日志或屏幕截图拖拽并复制在这里 (可选)"
       render: shell
     validations:
@@ -51,7 +51,7 @@ body:
   - type: input
     id: contact
     attributes:
-      label: "Notes (optional) / 备注(可选)"
+      label: "Notes (optional) / 备注 (可选)"
       description: "text below"
     validations:
       required: true
