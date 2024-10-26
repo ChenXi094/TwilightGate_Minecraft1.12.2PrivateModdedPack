@@ -29,6 +29,14 @@ body:
       value: "text"
     validations:
       required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs or Screenshoots / 日志或屏幕截图"
+      description: "Drag and drop your logs or screenshots here (optional) / 将你的日志或屏幕截图拖拽并复制在这里 (可选)"
+      render: shell
+    validations:
+      required: false
   - type: dropdown
     id: version
     attributes:
@@ -40,19 +48,10 @@ body:
       default: 1
     validations:
       required: true
-  - type: textarea
-    id: logs
-    attributes:
-      label: "Logs or Screenshoots / 日志或屏幕截图"
-      description: "Drag and drop your logs or screenshots here (optional) / 将你的日志或屏幕截图拖拽并复制在这里(可选)"
-      render: shell
-    validations:
-      required: false
   - type: input
     id: contact
     attributes:
-      label: "Your Name / 怎么称呼您"
-      description: Your name
-      placeholder: Xi Chen
+      label: "Notes (optional) / 备注(可选)"
+      description: "text below"
     validations:
       required: true
