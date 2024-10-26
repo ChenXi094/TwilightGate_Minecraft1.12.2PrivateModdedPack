@@ -1,7 +1,7 @@
-name: Bug Report
-description: File a bug report.
+name: Issues Report
+description: Issues Report
 title: "[Bug]: "
-labels: ["bug", "triage"]
+labels: ["bug"]
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
@@ -17,7 +17,8 @@ body:
       label: "Checklist / 检查项"
       description: "Please review the following items carefully and confirm / 请仔细核对以下项目并确认"
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: "I have searched the Issues page and confirmed that this bug has not been previously submitted / 我已在Issues页面搜索并确认该bug未曾被提交过"
+        - label: "I have made every effort to confirm that this issue was not caused by me / 我已尽量确认该错误并未我导致"
           required: true
   - type: textarea
     id: error
@@ -31,19 +32,19 @@ body:
   - type: dropdown
     id: version
     attributes:
-      label: "Your Modpack Version Channel / 你的整合包版本通道"
-      description: What version of our software are you running?
+      label: "Your modpack version channel / 你的整合包版本通道"
+      description: "Select the version in which you encountered the issue below / 在下方选择你从中发现问题的版本"
       options:
         - Playing Testing Version
         - Modified Version
-      default: 0
+      default: 1
     validations:
       required: true
   - type: textarea
     id: logs
     attributes:
       label: "Logs or Screenshoots / 日志或屏幕截图"
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      description: "Drag and drop your logs or screenshots here (optional) / 将你的日志或屏幕截图拖拽并复制在这里(可选)"
       render: shell
     validations:
       required: false
