@@ -9,11 +9,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thank you for your testing  
+        感谢您的测试
   - type: checkboxes
     id: terms
     attributes:
-      label: "Checklist/检查项"
+      label: "Checklist / 检查项"
       description: "Please review the following items carefully and confirm / 请仔细核对以下项目并确认"
       options:
         - label: I agree to follow this project's Code of Conduct
@@ -21,7 +22,7 @@ body:
   - type: textarea
     id: error
     attributes:
-      label: "Describe the bug 描述错误"
+      label: "Describe the bug / 描述错误"
       description: "在这里简要描述出现的错误或存在的问题"
       placeholder: "悬浮字符测试"
       value: "text"
@@ -30,7 +31,7 @@ body:
   - type: dropdown
     id: version
     attributes:
-      label: "Your Modpack Version Channel 你的整合包版本通道"
+      label: "Your Modpack Version Channel / 你的整合包版本通道"
       description: What version of our software are you running?
       options:
         - Playing Testing Version
@@ -41,7 +42,7 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: "Logs or Screenshoots 日志或屏幕截图"
+      label: "Logs or Screenshoots / 日志或屏幕截图"
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
     validations:
@@ -49,7 +50,7 @@ body:
   - type: input
     id: contact
     attributes:
-      label: "Your Name 怎么称呼您"
+      label: "Your Name / 怎么称呼您"
       description: Your name
       placeholder: Xi Chen
     validations:
