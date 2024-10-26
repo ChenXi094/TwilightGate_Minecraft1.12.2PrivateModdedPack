@@ -2,7 +2,6 @@ name: Issues Report
 description: Issues Report
 title: "[Bug]: "
 labels: ["bug"]
-projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
 body:
@@ -40,18 +39,26 @@ body:
   - type: dropdown
     id: version
     attributes:
-      label: "Your modpack version channel / 你的整合包版本通道"
-      description: "Select the version in which you encountered the issue below / 在下方选择你从中发现问题的版本"
+      label: "Modpack version channel / 整合包版本通道"
+      description: "Select the version where the issues occurred from the dropdown menu below / 在下方下拉菜单中选择错误所在的版本"
       options:
         - Playing Testing Version
         - Modified Version
       default: 1
     validations:
       required: true
-  - type: input
-    id: contact
+  - type: dropdown
+    id: category
     attributes:
-      label: "Notes (optional) / 备注 (可选)"
-      description: "text below"
+      label: "Issues category / 错误类别"
+      description: "Select the category of the issue you want to submit from the dropdown menu below / 在下方下拉菜单中选择你要提交的问题分类本"
+      options:
+        - "I submitted multiple different types of errors all at once / 我一次性提交了多个不同种类的错误"
+        - "Shaders or Resources"
+        - "Mods bug"
+        - "Mechanism defect"
+        - "Game Crashed or cannot Launched"
+        - "others"
+      default: 1
     validations:
       required: true
